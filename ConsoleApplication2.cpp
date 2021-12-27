@@ -29,7 +29,7 @@ int main() {
 		min_pos = start;
 		for (int i = start; i < SIZE; i++)
 		{
-			if (arr[i] < min_elem) {
+			if (arr[i] > min_elem) {
 				min_elem = arr[i];
 				min_pos = i;
 			}
